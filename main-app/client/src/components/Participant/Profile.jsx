@@ -34,7 +34,7 @@ class ParticipantProfile extends React.Component {
   };
   render() {
     let { user, loading, error } = this.state;
-    console.log(user);
+    console.log('Profile.jsx: ', user);
     return (
       <div className="user-profile--container">
         {loading && <Loader />}
